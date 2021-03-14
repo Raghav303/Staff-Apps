@@ -59,6 +59,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onChanged(List<Staff> staff) {
                 adapter.updateList(staff);
+
+                if(staff.size()==0)
+                {
+                    binding.emptyView.setVisibility(View.VISIBLE);
+                    binding.recyclerView.setVisibility(View.GONE);
+                }
+                else
+                {
+                    binding.emptyView.setVisibility(View.GONE);
+                    binding.recyclerView.setVisibility(View.VISIBLE);
+                }
             }
 
         });
