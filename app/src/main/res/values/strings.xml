@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Staff App</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="salary">Salary</string>
+    <string name="position">Position</string>
+    <string name="job_type">Job Type</string>
+    <string name="r_tech">R.Tech</string>
+    <string name="sign_out">Sign Out</string>
+
+</resources>
